@@ -12,14 +12,14 @@ public class Fibonacci {
         return (int) Math.pow(n, 2) - 1;
     }
 
-    public static int reverseFormula(int a) { // Знаходимо число w зробивши реверсію заданої формули
+    public static int reverseFormula(int a) { 
         return (int) Math.sqrt(a) + 1;
     }
 
     public static void check(Fibonachi[] arr, int i) { //
         int numb = reverseFormula(arr[i].getNumber());
-        if (arr[i].getNumber() == formula(numb)) { //Якщо число w, яке ми знаходимо із формули, при підставленні дорівнює числу Фібоначчі
-            System.out.print(arr[i].getNumber() + " "); //То виводимо на екран
+        if (arr[i].getNumber() == formula(numb)) { 
+            System.out.print(arr[i].getNumber() + " "); 
         }
     }
 
